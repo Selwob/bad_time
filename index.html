@@ -5,22 +5,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <title>Bad Time</title>
+  <meta name="description" content="A bad clock for telling the time.">
   <meta name="author" content="SitePoint">
 
-  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:title" content="Bad Time">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
+  <meta property="og:url" content="https://selwob.github.io/bad_time/">
+  <meta property="og:description" content="A bad clock for telling the time.">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-  This is never going to work.
-  <script src="js/scripts.js"></script>
+	<div id="clock-space">
+		<p id="power">Three times the normal clock screensaver screensaving power!</p>
+		<div id="clock-hour" class="clock-time"></div>
+		<div id="clock-min" class="clock-time"></div>
+		<div id="clock-sec" class="clock-time"></div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
 </body>
 </html>
